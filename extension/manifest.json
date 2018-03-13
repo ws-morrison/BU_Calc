@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "BU Calc",
+    "description": "This extension to calculate bread units",
+    "version": "0.1",
+
+    "browser_action": {
+        "default_icon": "bread.png",
+        "default_popup": "index.html"
+    },
+
+    "permissions": [
+        "activeTab"
+    ]
+}

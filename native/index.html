@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang='ru'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='css/style.css'>
+  <link href='https://fonts.googleapis.com/css?family=Cutive+Mono|Oswald:300,400|Ubuntu:300,400' rel='stylesheet'>
+  <title>Калькулятор</title>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class='header'>
+    <div class='header__contanier'>
+      <h1 class='header__title'>Калькулятор ХЕ</h1>
+    </div>
+  </header>
+
+  <!-- Main, Calc -->
+  <main class='main'>
+    <div class='main__contanier'>
+      <div class='calc'>
+        <fieldset class='calc__carbs'>
+          <label for='carbs'><input class='calc__input calc__input--carbs' type='number' id='carbs' name='carbs' min='0' placeholder='Углеводы на 100 грамм продукта' required>
+              </label>
+        </fieldset>
+        <fieldset class='calc__nett'>
+          <label for='nett'><input class='calc__input calc__input--nett' type='number' id='nett' name='nett' min='0' placeholder='Масса нетто' required>
+              </label>
+        </fieldset>
+        <div class='calc__buttons'>
+          <!-- <button class='calc__btn calc__btn--submit'>
+
+          <svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px'
+           width ='12' height='13' viewBox='0 0 50 50' enable-background='new 0 0 50 50' xml:space='preserve'>
+          <path fill='none' stroke='#000000' stroke-width='2' stroke-miterlimit='10' d='M11,22V3c0-1.105,0.896-2,2-2h34
+          c1.104,0,2,0.895,2,2v44c0,1.104-0.896,2-2,2H13c-1.104,0-2-0.896-2-2V28'/>
+          <polyline fill='none' stroke='#000000' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' points='22.054,14.11
+          32.943,25 22.053,35.89 '/>
+          <line fill='none' stroke='#000000' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' x1='1' y1='25' x2='32.416' y2='25'/>
+          </svg>Посчитать</button> -->
+
+          <button class='calc__btn calc__btn--reset'>
+          <svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px'
+          width ='12' height='13' viewBox='0 0 50 50' enable-background='new 0 0 50 50' xml:space='preserve'>
+          <path fill='none' stroke='#000000' stroke-width='2' stroke-miterlimit='10' d='M47,36v6c0,2.2-1.8,4-4,4H7c-2.2,0-4-1.8-4-4v-6'/>
+          <line fill='none' stroke='#000000' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' x1='25' y1='36' x2='25' y2='5'/>
+          <polyline fill='none' stroke='#000000' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' points='17,13 25,5 33,13
+          '/>
+          <line fill='none' stroke='#000000' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' x1='25' y1='36' x2='25' y2='5'/>
+          <polyline fill='none' stroke='#000000' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' points='17,13 25,5 33,13
+          '/></svg>Сброс</button>
+        </div>
+        <label for='calc__output-result'><input class='calc__output' type='textarea' placeholder='0.0 ХЕ' disabled='true'></input>
+        </label>
+      </div>
+    </div>
+
+    <section class='content'>
+      <div class='content__contanier'>
+        <div class='modal__result'>
+          <!-- <label for='calc__output-result'><input class='calc__output' type='textarea' placeholder='0.0 ХЕ' disabled='true'></input>
+          </label> -->
+
+        <div class='modal'>
+          <p class='modal__desc'>Это калькулятор Хлебных Единиц или ХЕ.</p>
+        </div>
+          </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class='footer'>
+    <div class='footer__contanier'></div>
+    <ul class='footer__list'>
+      <li class='footer__item footer__item--ws'>
+        <a href='https://github.com/ws-morrison' class='footer__link'>
+
+          <svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width ='12' height='13' x='0px' y='0px' viewBox='0 0 50 50' style='enable-background:new 0 0 50 50;' xml:space='preserve'>
+            <path d='M39.002,4.914c0-1.121,0.793-1.914,1.9-1.914s1.887,0.793,1.887,1.914c0,1.107-0.779,1.9-1.887,1.9
+            S39.002,6.021,39.002,4.914z'/>
+            <path
+              style='fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;'
+              d='M25.933,34.528
+            c-0.146-1.612-0.09-2.737-0.09-4.21c0.73-0.384,2.038-2.826,2.259-4.888c0.574-0.047,1.478-0.607,1.744-2.818
+            c0.143-1.187-0.425-1.855-0.771-2.065c0.934-2.809,2.874-11.499-3.588-12.398C24.822,6.981,23.213,6,21,6
+            c-8.854,0.163-10.016,7.077-8.075,14.547c-0.345,0.21-0.913,0.878-0.771,2.065c0.266,2.211,1.17,2.771,1.744,2.818
+            c0.22,2.062,1.58,4.504,2.312,4.888c0,1.473,0.055,2.598-0.091,4.21C14.367,39.239,3.546,37.916,3,47h36
+            C38.455,37.916,27.685,39.239,25.933,34.528z'/>
+            <polygon points='42,21 42,9 38,9 38,11 40,11 40,21 38,21 38,23 44,23 44,21'/>
+          </svg>WS Morrison</a></li>
+    </ul>
+  </footer>
+
+  <script src='js/calc.js'></script>
+  </script>
+</body>
+
+</html>
