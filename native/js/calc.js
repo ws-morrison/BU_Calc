@@ -1,4 +1,13 @@
 'use strict';
+
+var NETT_CONST = 100;
+
+var BREAD_UNIT = {
+  NON_GRAIN: 10,
+  GRAIN: 12,
+};
+
+
 var calcBlock = document.querySelector('.calc');
 var inputCarbs = calcBlock.querySelector('#carbs');
 var inputNett = calcBlock.querySelector('#nett');
@@ -6,13 +15,9 @@ var calcBtnSubmit = calcBlock.querySelector('.calc__btn--submit');
 var calcOutput = calcBlock.querySelector('.calc__output');
 var calcBtnReset = calcBlock.querySelector('.calc__btn--reset');
 
-var breadUnit = {
-  nonGrain: 10,
-  grain: 12,
-};
 
 var carbsCalc = function (carbsInProduct, nettInProduct) {
-  var result = (carbsInProduct / 100) * (nettInProduct / breadUnit.nonGrain);
+  var result = (carbsInProduct / NETT_CONST) * (nettInProduct / BREAD_UNIT.NON_GRAIN);
   return result.toFixed(1);
 };
 
