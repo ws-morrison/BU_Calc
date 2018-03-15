@@ -3,4 +3,4 @@
 - Статическая страница
 - Расширение для Chrome
 
-[Пример](https://yadi.sk/i/DzSUrX5Z3TQSXU "BUC_demo")
+[Пример](https://media.giphy.com/media/XtePa2rPbqhgNtnAhX/giphy.gif "BUC_demo")
