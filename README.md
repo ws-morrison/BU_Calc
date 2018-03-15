@@ -3,4 +3,4 @@
 - Статическая страница
 - Расширение для Chrome
 
-![](https://media.giphy.com/media/XtePa2rPbqhgNtnAhX/giphy.gif)
+![''](https://media.giphy.com/media/XtePa2rPbqhgNtnAhX/giphy.gif)
