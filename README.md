@@ -1,8 +1,10 @@
 # Калькулятор хлебных единиц
 
 - Статическая страница
-- Расширение для Chrome
+- [Расширение для Chrome](https://chrome.google.com/webstore/detail/bread-units-calc/fbopmiocphnpcajogmiljlgbfkffpoah)
 
 ![''](https://media.giphy.com/media/XtePa2rPbqhgNtnAhX/giphy.gif)
 
-Спасибо за иконку: https://thenounproject.com/hermine.laura.b/ и https://thenounproject.com
+
+- [Автор иконки](https://thenounproject.com/hermine.laura.b/)
+- [Сайт с иконками](https://thenounproject.com)
