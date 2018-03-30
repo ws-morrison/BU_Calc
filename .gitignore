@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+BU_Calc_extension/
+BU_Calc_promo/
+version_log/
+build/
+node_modules/
+npm-debug.log*
+Thumbs.db

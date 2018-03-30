@@ -5,6 +5,7 @@ var NETT_CONST = 100;
 var BREAD_UNIT = {
   NON_GRAIN: 10,
   GRAIN: 12,
+  TOP_GRAIN: 15
 };
 
 
