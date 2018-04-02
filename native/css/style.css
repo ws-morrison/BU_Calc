@@ -57,7 +57,6 @@ input[type='number'] {
   font-size: 54px;
   font-weight: 300;
   width: 100%;
-  /* margin-bottom: 20px; */
   text-align: center;
   text-transform: uppercase;
 }
@@ -119,7 +118,7 @@ input[type='number'] {
   justify-content: space-around;
   width: 80%;
   margin: 0 auto;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .calc__btn {
@@ -129,7 +128,9 @@ input[type='number'] {
   border-radius: 3px;
   background-color: #fff;
 }
-
+ .svg__btn {
+   margin-right: 5px;
+ }
 .content {
   font-size: 14px;
 }

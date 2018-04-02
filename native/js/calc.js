@@ -4,8 +4,7 @@ var NETT_CONST = 100;
 
 var BREAD_UNIT = {
   NON_GRAIN: 10,
-  GRAIN: 12,
-  TOP_GRAIN: 15
+  GRAIN: 12
 };
 
 
@@ -23,9 +22,9 @@ var carbsCalc = function (carbsInProduct, nettInProduct) {
 };
 
 var setResult = function () {
-    var param1 = inputCarbs.value;
-    var param2 = inputNett.value;
-    calcOutput.value = carbsCalc(param1, param2) + ' ХЕ';
+  var param1 = inputCarbs.value;
+  var param2 = inputNett.value;
+  calcOutput.value = carbsCalc(param1, param2) + ' ХЕ';
 };
 
 var resetResult = function () {
